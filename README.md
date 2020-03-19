@@ -1,1 +1,1 @@
-# pulsesecure
+# pulsesecure, configuracion cliente en Linux
