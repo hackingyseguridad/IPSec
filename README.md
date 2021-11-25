@@ -1,1 +1,2 @@
-# pulsesecure, configuracion cliente en Linux
+# pulsesecure 
+cliente VPN pulsesecure en bash shell Linux
