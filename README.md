@@ -12,7 +12,7 @@ IKE ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que poda
 · Autenticación : utiliza clave precompartida o certificado digital.
 · Grupo DH (Diffie Hellman)
 · Vida útil :tiempo que dura el túnel IKE p.ej. 86400 segundos (1 día).
-· Cifrado : algoritmo utilizado para el cifrado. Ppr ejemplo: DES , 3DES o AES .
+· Cifrado : algoritmo utilizado para el cifrado. Por ejemplo: DES , 3DES o AES .
 
 · Encapsulación : Usamos AH o ESP?
 · Modo de encapsulación : modo transporte o túnel?
