@@ -58,7 +58,7 @@ Las VPN IPSec son generalmente más complicadas ya que los usuarios deben instal
 
 https://harrymaq.medium.com/what-is-ipsec-how-does-it-works-what-are-its-phases-and-modes-965b5523727c
 https://www.linkedin.com/pulse/asegura-tus-comunicaciones-iot-con-vpn-y-olv%C3%ADdate-de-los-joel-benitez/
-
+https://www.geeksforgeeks.org/ipsec-full-form/
 
 # Cliente Pulse VPN para Linux
 cliente VPN pulsesecure en bash shell Linux
