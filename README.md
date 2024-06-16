@@ -38,7 +38,7 @@ IKEv2 admite la autenticación EAP (claves precompartida y certificado digital).
 ataques de sniffing
 
 https://harrymaq.medium.com/what-is-ipsec-how-does-it-works-what-are-its-phases-and-modes-965b5523727c
-
+https://www.linkedin.com/pulse/asegura-tus-comunicaciones-iot-con-vpn-y-olv%C3%ADdate-de-los-joel-benitez/
 
 
 # Cliente Pulse VPN para Linux
