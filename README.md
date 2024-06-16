@@ -1,14 +1,14 @@
 # IPSec
 
-IPsec, protocolo de nivel de enlace que proporcina seguridad, Capa 3, estandarizado para Ipv4, IPv6
+IPSec es un protocolo diseñado para poder conectar RPV, redes privadasd virtuales, y aplicar cifrados, control de integridad a los datos y autenticacin; IPsec es un  protocolo de nivel de enlace que proporcina seguridad, Capa 3, estandarizado para Ipv4, IPv6.
 
-Se establecen dos tuneles por fases, 
+Se establecen dos tuneles por fases:
 
-Fase1:
+Fase 1:
 
 IKE ( autenticación )  
 
-Fase2:
+Fase 2:
 
 AH (Cabecera adicional IP, para control integridad, calcula un HASH y MAC clave simetrica, para comprobar en destino), 
 ESP (Cifrado, es una etiqueta, encabezado y cola sobre el paquete IP +AH)
