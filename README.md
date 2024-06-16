@@ -35,6 +35,8 @@ La  diferencia entre los dos es que con el modo de transporte usaremos el encabe
 IKEv2 admite la autenticación EAP (claves precompartida y certificado digital).  tiene soporte integrado para cruce NAT
 
 
+ataques de sniffing
+
 https://harrymaq.medium.com/what-is-ipsec-how-does-it-works-what-are-its-phases-and-modes-965b5523727c
 
 
