@@ -6,7 +6,19 @@ Se establecen dos tuneles por fases:
 
 Fase 1:
 
-IKE ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que podamos usar para la fase 2 de IKE.
+IKE ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que podamos usar para la fase 2 de IKE. Negociación
+
+El par que tenga tráfico que deba protegerse iniciará la negociación de fase 1 de IKE. Los dos pares negociarán sobre los siguientes puntos:
+
+· Hashing : utilizamos un algoritmo hash para verificar la integridad, utilizamos MD5 o SHA (SHA-1 o SHA-2) para ello.
+
+· Autenticación : cada par tiene que demostrar quién es. Dos opciones comúnmente utilizadas son una clave precompartida o certificados digitales .
+
+· Grupo DH (Diffie Hellman) : el grupo DH determina la fuerza de la clave que se utiliza en el proceso de intercambio de claves. Los números de grupo más altos son más seguros pero tardan más en calcularse.
+
+· Vida útil : ¿cuánto tiempo dura el túnel IKE fase 1? cuanto más corta sea la vida útil, más seguro será porque reconstruirlo significa que también usaremos nuevo material de clave. Cada proveedor utiliza una vida útil diferente; un valor predeterminado común es 86400 segundos (1 día).
+
+· Cifrado : ¿qué algoritmo utilizamos para el cifrado? Por ejemplo: DES , 3DES o AES .
 
 Fase 2:
 
