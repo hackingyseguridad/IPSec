@@ -14,6 +14,9 @@ IKE ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que poda
 · Vida útil :tiempo que dura el túnel IKE p.ej. 86400 segundos (1 día).
 · Cifrado : algoritmo utilizado para el cifrado. Ppr ejemplo: DES , 3DES o AES .
 
+· Encapsulación : Usamos AH o ESP?
+· Modo de encapsulación : modo transporte o túnel?
+
 Fase 2:
 
 AH (Cabecera adicional IP, para control integridad, calcula un HASH y MAC clave simetrica, para comprobar en destino), 
