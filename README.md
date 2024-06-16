@@ -19,7 +19,7 @@ IKE ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que poda
 
 Fase 2:
 
-AH (Cabecera adicional IP, para control integridad, calcula un HASH y MAC clave simetrica, para comprobar en destino), 
+AH (Cabecera de autenticacion adicional IP, para control integridad, calcula un HASH y MAC clave simetrica, para comprobar en destino), 
 ESP (Cifrado, es una etiqueta, encabezado y cola sobre el paquete IP +AH)
 
 AH y/o ESP son los dos protocolos que utilizamos para proteger los datos del usuario. Ambos se pueden utilizar en modo transporte o túne
