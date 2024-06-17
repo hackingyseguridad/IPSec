@@ -14,8 +14,8 @@ IKE ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que poda
 · Vida útil :tiempo que dura el túnel IKE p.ej. 86400 segundos (1 día).
 · Cifrado : algoritmo utilizado para el cifrado. Por ejemplo: DES , 3DES o AES .
 
-· Encapsulación : Usamos AH o ESP?
-· Modo de encapsulación : modo transporte o túnel?
+· Encapsulación : Usamos AH y/o ESP
+· Modo de encapsulación : modo transporte o túnel
 
 Fase 2:
 
@@ -36,9 +36,9 @@ Cabecera IP | Cabecera AH | Cabecera TCP | Datos
 
 Cabecera IP | Cabecera ESP | Cabercera TCP | Datos | ESP Trailer | ESP Auth 
 
-Cabecera IP | Cabecera AH | Cabecera ESP | Cabercera IP | Cabecera TCP | Datos | ESP Trailer | ESP Auth
-
 <img style="float:left" alt="IPSEC 2" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC2.png">
+
+Cabecera IP | Cabecera AH | Cabecera ESP | Cabercera IP | Cabecera TCP | Datos | ESP Trailer | ESP Auth
 
 Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.  el modo túnel agregamos un nuevo encabezado IP encima del paquete IP original. 
 
