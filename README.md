@@ -32,7 +32,7 @@ Transporte, es cabecera AH, El modo de transporte es  agrega un encabezado AH de
 
 Cabecera IP | Cabecera AH | Cabecera TCP | Datos
 
-Cabecera IP | Cavecera ESP | Cabercera TCP | Datos | ESP Trailer | ESP Auth 
+Cabecera IP | Cabecera ESP | Cabercera TCP | Datos | ESP Trailer | ESP Auth 
 
 Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.  el modo túnel agregamos un nuevo encabezado IP encima del paquete IP original. 
 
