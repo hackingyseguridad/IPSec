@@ -28,9 +28,9 @@ AH y/o ESP son los dos protocolos que utilizamos para proteger los datos del usu
 
 Dos posibles modos de uso; transporte y tunel:
 
-Transporte, es cabecera AH, 
+Transporte, es cabecera AH, El modo de transporte es  agrega un encabezado AH después del encabezado IP.
 
-Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.
+Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.  el modo túnel agregamos un nuevo encabezado IP encima del paquete IP original. 
 
 La  diferencia entre los dos es que con el modo de transporte usaremos el encabezado IP original mientras que en el modo túnel usaremos un nuevo encabezado IP . 
 La principal diferencia entre el modo de túnel IPSec y el modo de transporte IPSec es que el modo de túnel se refiere a la tunelización o conexión de dos hosts, y ciertas configuraciones de este modo crean una capa adicional de encabezados para cifrar. Estos encabezados incluyen información para los enrutadores intermediarios sobre dónde reenviar los paquetes. En cada extremo del túnel, los paquetes intercambiados se descifran para que puedan llegar a los destinos asignados.
