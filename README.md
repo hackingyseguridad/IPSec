@@ -28,7 +28,6 @@ AH y/o ESP son los dos protocolos que utilizamos para proteger los datos del usu
 
 <img style="float:left" alt="Fases IPSEC" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC.png">
 
-
 Dos posibles modos de uso; transporte y tunel:
 
 Transporte, es cabecera AH, El modo de transporte es  agrega un encabezado AH después del encabezado IP.
@@ -39,7 +38,7 @@ Cabecera IP | Cabecera ESP | Cabercera TCP | Datos | ESP Trailer | ESP Auth
 
 Cabecera IP | Cabecera AH | Cabecera ESP | Cabercera IP | Cabecera TCP | Datos | ESP Trailer | ESP Auth
 
-<img style="float:left" alt="IPSEC 2" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC2.png"
+<img style="float:left" alt="IPSEC 2" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC2.png">
 
 Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.  el modo túnel agregamos un nuevo encabezado IP encima del paquete IP original. 
 
