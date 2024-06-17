@@ -68,11 +68,15 @@ Ataques de sniffing; MiTM, para mitigarlos utilizaremos claves de cifado fuertes
 
 Ataque Bleichenbacher El proceso de ataque implica llenar intencionalmente un mensaje codificado con errores y luego enviarlo repetidamente al servidor. En casos habituales, la respuesta del servidor contendrá pistas sobre el contenido de la información cifrada y el hacker puede estudiar las respuestas con cada envío del mensaje lleno de errores. De esta manera, el hacker puede estudiar la información basada en las respuestas y obtener inteligencia cada vez más precisa sobre todo el contenido de los datos cifrados.
 
+Ataques IKEv1, extraccion de información
+
+Ataques de Autenticación
+
+Ataques de TCP Replyay
+
+Ataques Dos
 
 
-https://harrymaq.medium.com/what-is-ipsec-how-does-it-works-what-are-its-phases-and-modes-965b5523727c
-https://www.linkedin.com/pulse/asegura-tus-comunicaciones-iot-con-vpn-y-olv%C3%ADdate-de-los-joel-benitez/
-https://www.geeksforgeeks.org/ipsec-full-form/
 
 # Cliente Pulse VPN para Linux
 cliente VPN pulsesecure en bash shell Linux
