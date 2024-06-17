@@ -32,9 +32,13 @@ Transporte, es cabecera AH, El modo de transporte es  agrega un encabezado AH de
 
 Cabecera IP | Cabecera AH | Cabecera TCP | Datos
 
+Cabecera IP | Cavecera ESP | Cabercera TCP | Datos | ESP Trailer | ESP Auth 
+
 Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.  el modo túnel agregamos un nuevo encabezado IP encima del paquete IP original. 
 
 Nueva Cabecera IP | Cavecera AH | Cabecera IP | Cabercera TCP | Datos
+
+
 
 La  diferencia entre los dos es que con el modo de transporte usaremos el encabezado IP original mientras que en el modo túnel usaremos un nuevo encabezado IP . 
 La principal diferencia entre el modo de túnel IPSec y el modo de transporte IPSec es que el modo de túnel se refiere a la tunelización o conexión de dos hosts, y ciertas configuraciones de este modo crean una capa adicional de encabezados para cifrar. Estos encabezados incluyen información para los enrutadores intermediarios sobre dónde reenviar los paquetes. En cada extremo del túnel, los paquetes intercambiados se descifran para que puedan llegar a los destinos asignados.
