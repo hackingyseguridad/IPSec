@@ -73,12 +73,13 @@ Ataque Bleichenbacher El proceso de ataque implica llenar intencionalmente un me
 
 Ataques IKEv1, extraccion de información
 
-Ataques de Autenticación
+Ataques de suplantación de identidad: Suplantación de IP,Suplantación de DNS, Suplantación de MAC Address, 
 
-Ataques de TCP Replyay
+Ataques de autenticación fuerza bruta: Fuerza bruta inversa.
+
+Ataques de TCP Replay repetición: Reaplay, reenvío paquetes de autenticación válidos para obtener acceso no autorizado a la VPN.
 
 Ataques Dos: Ataques Dos (Denegacion de servicio), Inundacion paquetes UDP, puertos 500/4500, IKE de autenticación. Ataques de inundacion con paquetes y trafico. Ataques Los ataques de fragmentación aprovechan la forma en que IPSec fragmenta los paquetes de datos para enviar fragmentos mal formados al servidor VPN. Esto puede hacer que el servidor se bloquee o se reinicie.  Puertos/servicios:
-
 
 
 # Cliente Pulse VPN para Linux
