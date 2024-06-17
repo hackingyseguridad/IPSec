@@ -22,6 +22,8 @@ Fase 2:
 AH (Cabecera de autenticacion adicional IP, para control integridad, calcula un HASH y MAC clave simetrica, para comprobar en destino), 
 ESP (Cifrado, es una etiqueta, encabezado y cola sobre el paquete IP +AH)
 
+ESP (Protocolo de carga útil de seguridad encapsulada): proporciona un método para cifrar datos en paquetes IP.
+
 AH y/o ESP son los dos protocolos que utilizamos para proteger los datos del usuario. Ambos se pueden utilizar en modo transporte o túne
 
 Dos posibles modos de uso; transporte y tunel:
