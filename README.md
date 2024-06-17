@@ -84,4 +84,6 @@ Ataques Dos: Ataques Dos (Denegacion de servicio), Inundacion paquetes UDP, puer
 # Cliente Pulse VPN para Linux
 cliente VPN pulsesecure en bash shell Linux
 
+./pulse.sh
+
 # http://www.hackingyseguridad.com
