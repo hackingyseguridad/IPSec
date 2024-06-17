@@ -55,6 +55,9 @@ En el modo de transporte, por otro lado, los enrutadores intermediarios pueden a
 IKEv1, Autenticación previa compartida (PSK) o certificados y cifrados 	MD5, SHA1, DES, 3DES
 IKEv2, admite la autenticación EAP (claves precompartida y certificado digital).  tiene soporte integrado para cruce NAT y cifrados AES, Chacha20, GCM
 
+IKEv2 500/udp es puerto se utiliza para el intercambio de mensajes de protocolo IKE durante la fase de establecimiento del túnel VPN.
+IpSec 4500/udp, establecido el túnel VPN, encapsula y transmite el tráfico de datos IP que  envía a través de la VPN
+
 Características de IPSec
 Protección antirreproducción: IPSec asigna un número único a cada paquete cuando se detecta un paquete con un número de secuencia duplicado, luego se reproduce y se descarta.
 Autenticación de datos: el código de autenticación de mensajes basado en hash (HMAC) verifica que los paquetes no se modifiquen.
@@ -75,11 +78,10 @@ Ataques de Autenticación
 Ataques de TCP Replyay
 
 Ataques Dos: Ataques Dos (Denegacion de servicio), Inundacion paquetes UDP, puertos 500/4500, IKE de autenticación. Ataques de inundacion con paquetes y trafico. Ataques Los ataques de fragmentación aprovechan la forma en que IPSec fragmenta los paquetes de datos para enviar fragmentos mal formados al servidor VPN. Esto puede hacer que el servidor se bloquee o se reinicie.  Puertos/servicios:
-IKEv2 500/udp es puerto se utiliza para el intercambio de mensajes de protocolo IKE durante la fase de establecimiento del túnel VPN.
-IpSec 4500/udp,  establecido el túnel VPN, encapsula y transmite el tráfico de datos IP que  envía a través de la VPN
-
 
 
 
 # Cliente Pulse VPN para Linux
 cliente VPN pulsesecure en bash shell Linux
+
+# http://www.hackingyseguridad.com
