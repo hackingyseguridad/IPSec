@@ -71,7 +71,7 @@ Ataques de sniffing; MiTM, para mitigarlos utilizaremos claves de cifado fuertes
 
 Ataque Bleichenbacher El proceso de ataque implica llenar intencionalmente un mensaje codificado con errores y luego enviarlo repetidamente al servidor. En casos habituales, la respuesta del servidor contendrá pistas sobre el contenido de la información cifrada y el hacker puede estudiar las respuestas con cada envío del mensaje lleno de errores. De esta manera, el hacker puede estudiar la información basada en las respuestas y obtener inteligencia cada vez más precisa sobre todo el contenido de los datos cifrados.
 
-Ataques IKEv1, extraccion de información
+Ataques IKEv1, extraccion de información (  IKEv1 Heartbleed ), permite interceptar claves precompartidas (PSK) y credenciales de usuario, durante el proceso de establecimiento de un túnel VPN IPsec.
 
 Ataques de suplantación de identidad: Suplantación de IP,Suplantación de DNS, Suplantación de MAC Address, 
 
@@ -80,7 +80,6 @@ Ataques de autenticación fuerza bruta: Fuerza bruta inversa.
 Ataques de TCP Replay repetición: Reaplay, reenvío paquetes de autenticación válidos para obtener acceso no autorizado a la VPN.
 
 Ataques Dos: Ataques Dos (Denegacion de servicio), Inundacion paquetes UDP, puertos 500/4500, IKE de autenticación. Ataques de inundacion con paquetes y trafico. Ataques Los ataques de fragmentación aprovechan la forma en que IPSec fragmenta los paquetes de datos para enviar fragmentos mal formados al servidor VPN. Esto puede hacer que el servidor se bloquee o se reinicie.  Puertos/servicios:
-
 
 # Cliente Pulse VPN para Linux
 cliente VPN pulsesecure en bash shell Linux
