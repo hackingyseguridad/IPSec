@@ -24,7 +24,7 @@ ESP (Cifrado, es una etiqueta, encabezado y cola sobre el paquete IP +AH)
 
 ESP (Protocolo de carga útil de seguridad encapsulada): proporciona un método para cifrar datos en paquetes IP.
 
-AH y/o ESP son los dos protocolos que utilizamos para proteger los datos del usuario. Ambos se pueden utilizar en modo transporte o túne
+AH y/o ESP son los dos protocolos que utilizamos para proteger los datos del usuario. Ambos se pueden utilizar en modo transporte o túnel
 
 <img style="float:left" alt="Fases IPSEC" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC.png">
 
