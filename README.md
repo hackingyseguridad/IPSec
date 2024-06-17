@@ -40,6 +40,13 @@ En el modo de transporte, por otro lado, los enrutadores intermediarios pueden a
 IKEv1, Autenticación previa compartida (PSK) o certificados y cifrados 	MD5, SHA1, DES, 3DES
 IKEv2, admite la autenticación EAP (claves precompartida y certificado digital).  tiene soporte integrado para cruce NAT y cifrados AES, Chacha20, GCM
 
+Características de IPSec
+Protección antirreproducción: IPSec asigna un número único a cada paquete cuando se detecta un paquete con un número de secuencia duplicado, luego se reproduce y se descarta.
+Autenticación de datos: el código de autenticación de mensajes basado en hash (HMAC) verifica que los paquetes no se modifiquen.
+Transparencia: IPSec funciona debajo de la capa de transporte, por lo que es transparente para los usuarios y las aplicaciones.
+Confidencialidad: el remitente cifra los paquetes de datos antes de su transmisión, de modo que los datos confidenciales solo lleguen al destinatario previsto.
+Recodificación dinámica de claves: el procedimiento de recodificación de claves a intervalos establecidos reemplaza la reconfiguración manual de claves secretas.
+
 ATAQUES:
 
 ataques de sniffing
