@@ -24,7 +24,7 @@ ESP (Cifrado, es una etiqueta, encabezado y cola sobre el paquete IP +AH)
 
 AH y/o ESP son los dos protocolos que utilizamos para proteger los datos del usuario. Ambos se pueden utilizar en modo transporte o túne
 
-Dos posibles modos de uso; trasportel y tunel:
+Dos posibles modos de uso; trasporte y tunel:
 
 Trasporte, es cabecera AH, 
 
