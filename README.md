@@ -39,7 +39,7 @@ Cabecera IP | Cabecera ESP | Cabercera TCP | Datos | ESP Trailer | ESP Auth
 
 Cabecera IP | Cabecera AH | Cabecera ESP | Cabercera IP | Cabecera TCP | Datos | ESP Trailer | ESP Auth
 
-<img style="float:left" alt="IPSEC 2" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC2.png">
+<img style="float:left" alt="IPSEC 2" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC2.png"
 
 Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.  el modo túnel agregamos un nuevo encabezado IP encima del paquete IP original. 
 
