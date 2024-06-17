@@ -32,7 +32,7 @@ Tunel, se le etuqeta con IP origen y destino a todo el paquete IP`+AH.
 
 La  diferencia entre los dos es que con el modo de transporte usaremos el encabezado IP original mientras que en el modo túnel usaremos un nuevo encabezado IP . 
 
-IKEv2 admite la autenticación EAP (claves precompartida y certificado digital).  tiene soporte integrado para cruce NAT
+IKEv2 admite la autenticación EAP (claves precompartida y certificado digital).  tiene soporte integrado para cruce NAT y cifrados AES, Chacha20, GCM
 
 
 Desventajas de IPSec
