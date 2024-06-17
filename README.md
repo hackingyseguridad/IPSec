@@ -57,6 +57,8 @@ IKEv2, admite la autenticación EAP (claves precompartida y certificado digital)
 
 IKEv2 500/udp/tcp es puerto se utiliza para el intercambio de mensajes de protocolo IKE durante la fase de establecimiento del túnel VPN.
 IpSec 4500/udp/tcp, establecido el túnel VPN, encapsula y transmite el tráfico de datos IP que  envía a través de la VPN
+ESP 50/udp/tcp, (Protocolo de carga útil de seguridad encapsulada)  IPsec
+
 
 Características de IPSec
 Protección antirreproducción: IPSec asigna un número único a cada paquete cuando se detecta un paquete con un número de secuencia duplicado, luego se reproduce y se descarta.
