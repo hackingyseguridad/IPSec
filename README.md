@@ -26,6 +26,9 @@ ESP (Protocolo de carga útil de seguridad encapsulada): proporciona un método 
 
 AH y/o ESP son los dos protocolos que utilizamos para proteger los datos del usuario. Ambos se pueden utilizar en modo transporte o túne
 
+<img style="float:left" alt="Fases IPSEC" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC.png">
+
+
 Dos posibles modos de uso; transporte y tunel:
 
 Transporte, es cabecera AH, El modo de transporte es  agrega un encabezado AH después del encabezado IP.
