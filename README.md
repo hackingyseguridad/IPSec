@@ -28,20 +28,18 @@ Dos posibles modos de uso; trasportel y tunel:
 
 Trasporte, es cabecera AH, 
 
-Tunel, se le etuqeta con IP origen y destino a todo el paquete IP`+AH.
+Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.
 
 La  diferencia entre los dos es que con el modo de transporte usaremos el encabezado IP original mientras que en el modo túnel usaremos un nuevo encabezado IP . 
 
 IKEv1, Autenticación previa compartida (PSK) o certificados y cifrados 	MD5, SHA1, DES, 3DES
 IKEv2, admite la autenticación EAP (claves precompartida y certificado digital).  tiene soporte integrado para cruce NAT y cifrados AES, Chacha20, GCM
 
-
 Desventajas de IPSec
 Una de las mayores desventajas de IPSec es su amplio rango de acceso, ya que al brindar acceso a un solo dispositivo de una red basada en IPSec, también se pueden otorgar privilegios a otros dispositivos.
 IPSec causa algunos problemas de compatibilidad con el software si los desarrolladores de software no cumplen con los estándares de IPSec.
 IPSec tiene un alto uso de CPU cuando el tamaño del paquete de datos es pequeño, el rendimiento de la red disminuye debido a la gran sobrecarga utilizada por IPSec.
 La seguridad de ciertos algoritmos utilizados en IPSec es una preocupación; si alguien usa un algoritmo roto, el servidor correrá un mayor riesgo de sufrir un ataque.
-
 
 ataques de sniffing
 PSec se puede piratear mediante un método llamado ataque Bleichenbacher. Investigadores del Instituto Horst Görtz de Seguridad TI en Alemania y la Universidad de Opole en Polonia demostraron por primera vez que el método tiene éxito al
