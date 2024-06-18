@@ -44,10 +44,11 @@ Cabecera IP | Cabecera ESP | Cabercera TCP | Datos | ESP Trailer | ESP Auth
 
 <img style="float:left" alt="IPSEC 2" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC2.png">
 
-Cabecera IP | Cabecera AH | Cabecera ESP | Cabercera IP | Cabecera TCP | Datos | ESP Trailer | ESP Auth
+Datagrama del protocolo 50, con cabeceras ESP 
 
 <img style="float:left" alt="Datagrama ESP" src="https://github.com/hackingyseguridad/IPSec/blob/master/datagrama.png">
-Datagrama del protocolo 50, con ESP 
+
+Cabecera IP | Cabecera AH | Cabecera ESP | Cabercera IP | Cabecera TCP | Datos | ESP Trailer | ESP Auth
 
 Tunel, se le etiqueta con IP origen y destino a todo el paquete IP + AH.  el modo túnel agregamos un nuevo encabezado IP encima del paquete IP original. 
 
