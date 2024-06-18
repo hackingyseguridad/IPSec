@@ -9,13 +9,23 @@ Fase 1:
 IKE ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que podamos usar para la fase 2 de IKE. Negociación. El par que tenga tráfico que deba protegerse iniciará la negociación de fase 1 de IKE. Los dos pares negociarán sobre los siguientes puntos:
 
 · Hashing : usa un algoritmo hash para verificar la integridad, utilizamos MD5 o SHA (SHA-1 o SHA-2).
+
 · Autenticación : utiliza clave precompartida (PSK)  o certificado digital.
+
 · Grupo DH (Diffie Hellman)
+
 · Vida útil :tiempo que dura el túnel IKE p.ej. 86400 segundos (1 día).
+
 · Cifrado : algoritmo utilizado para el cifrado. Por ejemplo: DES , 3DES o AES .
 
+
 · Encapsulación : Usamos AH y/o ESP
+
 · Modo de encapsulación : modo transporte o túnel
+
+VPN de acceso remoto, tipos de autenticacion en IPSec
+
+Hybrid Certificate + Xauth, Mutual Certificate + Xauth,  Mutual PSK + Xauth , EAP-TLS, EAP-RADIUS, EAP-MSCHAPv2, Mutual certificate, Mutual certificate (PKCS#11), Mutual PSK
 
 Fase 2:
 
