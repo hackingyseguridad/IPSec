@@ -4,7 +4,7 @@ IPSec (Seguridad del Protocolo de Internet) es un protocolo diseñado para poder
 
 Se establecen dos tuneles por fases:
 
-**Fase 1: **
+Fase 1:
 
 **IKE** ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que podamos usar para la fase 2 de IKE. Negociación. El par que tenga tráfico que deba protegerse iniciará la negociación de fase 1 de IKE. Los dos pares negociarán sobre los siguientes puntos:
 
@@ -23,7 +23,7 @@ Se establecen dos tuneles por fases:
 
 · Modo de encapsulación : modo transporte o túnel
 
-**Fase 2: **
+Fase 2:
 
 **AH** (Cabecera de autenticacion adicional IP, para control integridad, calcula un HASH y MAC clave simetrica, para comprobar en destino), 
 **ESP** (Cifrado, es una etiqueta, encabezado y cola sobre el paquete IP +AH)
