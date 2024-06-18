@@ -64,7 +64,7 @@ La principal diferencia entre el modo de túnel IPSec y el modo de transporte IP
 En el modo de transporte, por otro lado, los enrutadores intermediarios pueden acceder a la información dentro del encabezado sin descifrarla, excepto la carga útil.
 
 IKEv1, Autenticación previa compartida (PSK) o certificados y cifrados 	MD5, SHA1, DES, 3DES
-IKEv2, admite la autenticación EAP (claves precompartida y certificado digital).  tiene soporte integrado para cruce NAT y cifrados AES, Chacha20, GCM
+IKEv2, admite la autenticación: EAP (claves precompartida y certificado digital), Hybrid Certificate + Xauth, Mutual Certificate + Xauth, Mutual PSK + Xauth , EAP-TLS, EAP-RADIUS, EAP-MSCHAPv2, Mutual certificate, Mutual certificate (PKCS#11), Mutual PSK .  tiene soporte integrado para cruce NAT y cifrados AES, Chacha20, GCM
 
 IKEv2 500/udp/tcp es puerto se utiliza para el intercambio de mensajes de protocolo IKE durante la fase de establecimiento del túnel VPN.
 IpSec 4500/udp/tcp, establecido el túnel VPN, encapsula y transmite el tráfico de datos IP que  envía a través de la VPN
