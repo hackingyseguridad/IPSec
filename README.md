@@ -93,7 +93,6 @@ Recodificación dinámica de claves: el procedimiento de recodificación de clav
 
 **Ataques Dos:** Ataques Dos (Denegacion de servicio), Inundacion paquetes UDP, puertos 500/4500, IKE de autenticación. Ataques de inundacion con paquetes y trafico. Ataques Los ataques de fragmentación aprovechan la forma en que IPSec fragmenta los paquetes de datos para enviar fragmentos mal formados al servidor VPN. Esto puede hacer que el servidor se bloquee o se reinicie.  Puertos/servicios:
 
-https://book.hacktricks.xyz/v/es/network-services-pentesting/ipsec-ike-vpn-pentesting
 
 # Cliente Pulse VPN para Linux
 cliente VPN pulsesecure en bash shell Linux
