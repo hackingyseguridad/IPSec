@@ -83,7 +83,7 @@ Recodificación dinámica de claves: el procedimiento de recodificación de clav
 
 **Ataque Bleichenbache**r El proceso de ataque implica llenar intencionalmente un mensaje codificado con errores y luego enviarlo repetidamente al servidor. En casos habituales, la respuesta del servidor contendrá pistas sobre el contenido de la información cifrada y el hacker puede estudiar las respuestas con cada envío del mensaje lleno de errores. De esta manera, el hacker puede estudiar la información basada en las respuestas y obtener inteligencia cada vez más precisa sobre todo el contenido de los datos cifrados.
 
-**Ataques IKEv1*, extraccion de información (  IKEv1 Heartbleed ), permite interceptar claves precompartidas (PSK) y credenciales de usuario, durante el proceso de establecimiento de un túnel VPN IPsec.
+**Ataques IKEv1**, extraccion de información (  IKEv1 Heartbleed ), permite interceptar claves precompartidas (PSK) y credenciales de usuario, durante el proceso de establecimiento de un túnel VPN IPsec.
 
 **Ataques de suplantación de identidad:** Suplantación de IP,Suplantación de DNS, Suplantación de MAC Address, 
 
