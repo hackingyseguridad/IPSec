@@ -23,10 +23,6 @@ IKE ( autenticación )  la fase 1 de IKE es establecer un túnel seguro que poda
 
 · Modo de encapsulación : modo transporte o túnel
 
-VPN de acceso remoto, tipos de autenticacion en IPSec
-
-Hybrid Certificate + Xauth, Mutual Certificate + Xauth,  Mutual PSK + Xauth , EAP-TLS, EAP-RADIUS, EAP-MSCHAPv2, Mutual certificate, Mutual certificate (PKCS#11), Mutual PSK
-
 Fase 2:
 
 AH (Cabecera de autenticacion adicional IP, para control integridad, calcula un HASH y MAC clave simetrica, para comprobar en destino), 
