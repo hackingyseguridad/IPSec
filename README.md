@@ -44,7 +44,7 @@ Cabecera IP | Cabecera ESP | Cabercera TCP | Datos | ESP Trailer | ESP Auth
 
 <img style="float:left" alt="IPSEC 2" src="https://github.com/hackingyseguridad/IPSec/blob/master/IPSEC2.png">
 
-Datagrama del protocolo 50, con cabeceras ESP 
+Datagrama del protocolo 50, con cabeceras ESP . - ESP pertenece al nivel de red dentro de TCP/IP.
 
 <img style="float:left" alt="Datagrama ESP" src="https://github.com/hackingyseguridad/IPSec/blob/master/datagrama.png">
 
