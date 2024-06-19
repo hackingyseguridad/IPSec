@@ -2,6 +2,8 @@
 
 IPSec (Seguridad del Protocolo de Internet) es un protocolo diseñado para poder conectar y  proteger todo el tráfico de red entre dos redes,  aplicar cifrados, control de integridad a los datos y autenticacin; IPsec es un  protocolo de nivel de enlace que proporcina seguridad, Capa 3, estandarizado para Ipv4, IPv6.
 
+<img style="float:left" alt="VPN IPSEC" src="https://github.com/hackingyseguridad/IPSec/blob/master/ipsec3.png">
+
 Se establecen dos tuneles por fases:
 
 Fase 1:
