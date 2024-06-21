@@ -25,6 +25,8 @@ Fase 1:
 
 · Modo de encapsulación : modo transporte o túnel
 
+Se crea una clave compartida para proteger los paquetes de la fase 1 
+
 Fase 2:
 
 **AH** (Cabecera de autenticacion adicional IP, para control integridad, calcula un HASH y MAC clave simetrica, para comprobar en destino), 
@@ -64,6 +66,8 @@ La  diferencia entre los dos es que con el modo de transporte usaremos el encabe
 La principal diferencia entre el modo de túnel IPSec y el modo de transporte IPSec es que el modo de túnel se refiere a la tunelización o conexión de dos hosts, y ciertas configuraciones de este modo crean una capa adicional de encabezados para cifrar. Estos encabezados incluyen información para los routers sobre dónde reenviar los paquetes. En cada extremo del túnel, los paquetes intercambiados se descifran para que puedan llegar a los destinos asignados.
 
 En el modo de transporte, por otro lado, los enrutadores intermediarios pueden acceder a la información dentro del encabezado sin descifrarla, excepto la carga útil.
+En modo trasporte, la protección es extremo a extremo, "de dispositivo a dispositivo"
+En modo tunel, la protección es desde la puerta de enlace de una red, con la puerta de enalce de la red reomota.
 
 IKEv1, Autenticación previa compartida (PSK) o certificados y cifrados 	MD5, SHA1, DES, 3DES
 IKEv2, admite la autenticación: EAP (claves precompartida y certificado digital), Hybrid Certificate + Xauth, Mutual Certificate + Xauth, Mutual PSK + Xauth , EAP-TLS, EAP-RADIUS, EAP-MSCHAPv2, Mutual certificate, Mutual certificate (PKCS#11), Mutual PSK .  tiene soporte integrado para cruce NAT y cifrados AES, Chacha20, GCM
