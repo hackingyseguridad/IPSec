@@ -74,6 +74,8 @@ ESP 50/udp/tcp, (Protocolo de carga útil de seguridad encapsulada)  IPsec
 
 <img style="float:left" alt="IKEv1 vs IKEv2" src="https://github.com/hackingyseguridad/IPSec/blob/master/ipsec4.png">
 
+<img style="float:left" alt="IKEv1" src="https://github.com/hackingyseguridad/IPSec/blob/master/ike.png">
+
 Características de IPSec
 Protección antirreproducción: IPSec asigna un número único a cada paquete cuando se detecta un paquete con un número de secuencia duplicado, luego se reproduce y se descarta.
 Autenticación de datos: el código de autenticación de mensajes basado en hash (HMAC) verifica que los paquetes no se modifiquen.
