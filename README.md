@@ -93,7 +93,7 @@ Recodificación dinámica de claves: el procedimiento de recodificación de clav
 
 **Ataques de suplantación de identidad:** Suplantación de IP,Suplantación de DNS, Suplantación de MAC Address, 
 
-**Ataques de autenticación** fuerza bruta: Fuerza bruta inversa.
+**Ataques de autenticación** fuerza bruta: clave PSK, credenciales. Fuerza bruta inversa.
 
 **Ataques de Replay repetición**: Replay, reenvío paquetes de autenticación válidos para obtener acceso no autorizado a la VPN.
 
