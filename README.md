@@ -83,6 +83,8 @@ Transparencia: IPSec funciona debajo de la capa de transporte, por lo que es tra
 Confidencialidad: el remitente cifra los paquetes de datos antes de su transmisión, de modo que los datos confidenciales solo lleguen al destinatario previsto.
 Recodificación dinámica de claves: el procedimiento de recodificación de claves a intervalos establecidos reemplaza la reconfiguración manual de claves secretas.
 
+Se crea una 2ª clave compartida DH, para proteger los paquetes de la fase 2  y todo el trafico aunque sea trafico UDP tiene "acuse de recibo" con un numero de secuencia y HASH para control de indentidad
+
 **ATAQUES:**
 
 **Ataques de sniffing**; MiTM, para mitigarlos utilizaremos claves de cifado fuertes, combinaciones seguras de cifrado, red segura,  actualizado el software.
