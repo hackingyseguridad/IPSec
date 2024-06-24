@@ -1,0 +1,1 @@
+ike-scan  -M -A -n hackingyseguridad --file=ip.txt
