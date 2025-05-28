@@ -1,1 +1,12 @@
+#  Opciones útiles:
+#
+#    -A → Modo agresivo (para IKEv1, no siempre funciona con IKEv2).
+#
+#    -2 → Fuerza el modo IKEv2.
+#
+#   --id=mi_id → Establece un ID para la fase 1 (útil si el servidor requiere un ID específico).
+#
+#    -P → Guarda el payload PSK para un ataque de fuerza bruta posterior.
+#
+
 ike-scan  -M -A -n hackingyseguridad --file=ip.txt
