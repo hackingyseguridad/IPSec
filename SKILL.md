@@ -976,9 +976,6 @@ RECOMENDACIONES:
 
 ═══════════════════════════════════════════════════════════════════════════
 
-Autor: @antonio_taboada (hackingyseguridad)
-Email: antonio@hackingyseguridad.com
-Licencia: GPL-3.0
 Repositorio: https://github.com/hackingyseguridad/IPSec
 
 SOLO PARA TESTING AUTORIZADO — EL USO NO AUTORIZADO ES ILEGAL
