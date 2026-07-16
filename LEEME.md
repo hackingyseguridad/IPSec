@@ -720,7 +720,7 @@ echo "[-] Test completado"
 
 ---
 
-## ⚔️ Vectores de Ataque IPSec
+## Vectores de Ataque IPSec
 
 | Vector de Ataque | Severidad | Requisitos | Mitigación |
 |---|---|---|---|
