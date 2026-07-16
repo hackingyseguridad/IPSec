@@ -1,4 +1,4 @@
-###  IPSec — Auditoría Ofensiva de VPN y Protocolos de Encriptación
+###  IPSec — Auditoría Ofensiva de VPN y protocolos de cifrado
 
 **IPSec (Internet Protocol Security)** es un conjunto de protocolos de seguridad a nivel de red que proporciona autenticación, integridad y confidencialidad de los datos IP. Este repositorio contiene herramientas, scripts y metodologías para **auditoría ofensiva, pentest y análisis de vulnerabilidades** en implementaciones IPSec en redes Debian/Kali Linux.
 
@@ -274,7 +274,7 @@ sudo systemctl restart strongswan
 
 ---
 
-## 🎯 Fases Operativas de Auditoría
+### Fases operativas de auditoría
 
 ### **FASE 1: Reconocimiento (RECON)**
 
@@ -821,9 +821,7 @@ sudo cat /etc/ipsec.secrets
 sudo chmod 600 /etc/ipsec.secrets
 ```
 
----
-
-## 📚 Referencias
+### Referencias
 
 ### RFC Oficiales
 - **RFC 4301** — Security Architecture for IP
