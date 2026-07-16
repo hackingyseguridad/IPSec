@@ -937,21 +937,7 @@ EL USO NO AUTORIZADO ES ILEGAL.
 
 ---
 
-## 📞 Contacto y Contribuciones
 
-- **Email**: antonio@hackingyseguridad.com
-- **Twitter/X**: @antonio_taboada
-- **GitHub Issues**: https://github.com/hackingyseguridad/IPSec/issues
-- **Reportar CVE**: security@hackingyseguridad.com
-
-### Contribuir
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el repositorio
-2. Crear rama `feature/mi-mejora`
-3. Commit con mensajes descriptivos
-4. Push y crear Pull Request
-5. Cumplir con estándares de código
 
 ---
 
