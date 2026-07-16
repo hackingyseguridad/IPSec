@@ -2,7 +2,7 @@
 
 **IPSec (Internet Protocol Security)** es un conjunto de protocolos de seguridad a nivel de red que proporciona autenticación, integridad y confidencialidad de los datos IP. Este repositorio contiene herramientas, scripts y metodologías para **auditoría ofensiva, pentest y análisis de vulnerabilidades** en implementaciones IPSec en redes Debian/Kali Linux.
 
-> ⚠️ **ADVERTENCIA LEGAL**: Este repositorio está diseñado para profesionales de seguridad autorizados. Consulta el apartado [Disclaimer Legal](#disclaimer-legal) antes de usar estas herramientas.
+>  **ADVERTENCIA LEGAL**: Este repositorio está diseñado para profesionales de seguridad autorizados. Consulta el apartado [Disclaimer Legal](#disclaimer-legal) antes de usar estas herramientas.
 
 ---
 
@@ -22,8 +22,6 @@
 12. [Disclaimer Legal](#disclaimer-legal)
 
 ---
-
-### IPSec
 
 ### IPSec
 
@@ -103,7 +101,7 @@ IPSec es un **protocolo de seguridad de capa 3 (red)** que opera en el kernel de
 
 ---
 
-## 📊 Comparativa de Protocolos
+### Protocolos
 
 ### AH vs ESP vs TRANSPORT vs TUNNEL
 
@@ -151,7 +149,7 @@ IPSec es un **protocolo de seguridad de capa 3 (red)** que opera en el kernel de
 
 ---
 
-## 📦 Requisitos y Dependencias
+### Requisitos 
 
 ### Sistema Operativo
 - Debian 11/12 (Bullseye/Bookworm)
@@ -186,7 +184,7 @@ pip3 install cryptography paramiko pycryptodome scapy pwntools
 
 ---
 
-## ⚡ Instalación Rápida
+### Instalación Rápida
 
 ### 1. Clonar Repositorio
 
@@ -598,7 +596,7 @@ cat "$REPORT_FILE"
 
 ---
 
-## 📌 Ejemplos CLI
+### Ejemplos CLI
 
 ### Ejemplo 1: Configuración Básica Libreswan (Gateway-to-Gateway)
 
@@ -720,7 +718,7 @@ echo "[-] Test completado"
 
 ---
 
-## Vectores de Ataque IPSec
+### Vectores de Ataque IPSec
 
 | Vector de Ataque | Severidad | Requisitos | Mitigación |
 |---|---|---|---|
@@ -775,7 +773,7 @@ DoS + Posible RCE
 
 ---
 
-## 🔧 Troubleshooting
+### Troubleshooting
 
 ### IPSec no levanta
 
