@@ -1,27 +1,3 @@
----
-titulo: IPSec - Auditoría Ofensiva de Protocolos VPN y Túneles Encriptados
-autor: hackingyseguridad
-email: antonio@hackingyseguridad.com
-version: 2.0
-fecha: 2026-01-16
-licencia: GPL-3.0
-repositorio: https://github.com/hackingyseguridad/IPSec
-web: https://hackingyseguridad.com
-tags:
-  - ipsec
-  - vpn
-  - ikev1
-  - ikev2
-  - esp
-  - ah
-  - encriptacion
-  - pentest
-  - auditoría
-  - ofensivo
-  - linux
-  - kali
----
-
 ###  IPSec — Auditoría Ofensiva de VPN y Protocolos de Encriptación
 
 **IPSec (Internet Protocol Security)** es un conjunto de protocolos de seguridad a nivel de red que proporciona autenticación, integridad y confidencialidad de los datos IP. Este repositorio contiene herramientas, scripts y metodologías para **auditoría ofensiva, pentest y análisis de vulnerabilidades** en implementaciones IPSec en redes Debian/Kali Linux.
@@ -47,9 +23,9 @@ tags:
 
 ---
 
-### 🔬 Concepto Técnico
+### IPSec
 
-### ¿Qué es IPSec?
+### IPSec
 
 IPSec es un **protocolo de seguridad de capa 3 (red)** que opera en el kernel del sistema operativo, proporcionando protección a nivel de red transparente para cualquier tráfico IP, independientemente de la aplicación.
 
