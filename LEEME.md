@@ -30,7 +30,7 @@ tags:
 
 ---
 
-## 📋 Tabla de Contenidos
+### Tabla de Contenidos
 
 1. [Concepto Técnico de IPSec](#concepto-técnico)
 2. [Arquitectura y Componentes](#arquitectura)
@@ -47,7 +47,7 @@ tags:
 
 ---
 
-## 🔬 Concepto Técnico
+### 🔬 Concepto Técnico
 
 ### ¿Qué es IPSec?
 
@@ -67,7 +67,7 @@ IPSec es un **protocolo de seguridad de capa 3 (red)** que opera en el kernel de
 
 ---
 
-## 🏗️ Arquitectura y Componentes
+### Arquitectura y Componentes
 
 ### Componentes Fundamentales de IPSec
 
