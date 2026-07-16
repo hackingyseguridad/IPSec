@@ -735,7 +735,7 @@ echo "[-] Test completado"
 
 ---
 
-## 🔴 CVE y Vulnerabilidades Conocidas
+### CVE y vulnerabilidades conocidas
 
 ### CVE-2024-3156 (StrongSwan ChaCha20)
 
@@ -835,7 +835,7 @@ sudo chmod 600 /etc/ipsec.secrets
 - **RFC 7539** — IKEv2
 - **RFC 3394** — AES Key Wrap Algorithm
 
-### Documentación Oficial
+### Documentación
 - [Libreswan Documentation](https://libreswan.org/wiki/)
 - [StrongSwan Documentation](https://www.strongswan.org/documentation.html)
 - [Linux Kernel XFRM](https://wiki.linuxfoundation.org/networking/xfrm)
@@ -854,7 +854,7 @@ sudo chmod 600 /etc/ipsec.secrets
 
 ---
 
-## ⚖️ Disclaimer Legal
+### Disclaimer Legal
 
 ```
 ═══════════════════════════════════════════════════════════════════════════
@@ -899,24 +899,12 @@ no se responsabiliza por:
 
 ═══════════════════════════════════════════════════════════════════════════
 
-Autor: @antonio_taboada (hackingyseguridad)
-Email: antonio@hackingyseguridad.com
-Sitio: https://hackingyseguridad.com
-Licencia: GPL-3.0
-Repositorio: https://github.com/hackingyseguridad/IPSec
-
 ESTA HERRAMIENTA ESTÁ DISEÑADA SOLO PARA TESTING AUTORIZADO.
 EL USO NO AUTORIZADO ES ILEGAL.
 
 ═══════════════════════════════════════════════════════════════════════════
 ```
 
----
-
-
-
----
-
-**Última actualización**: 2026-01-16  
-**Versión**: 2.0  
-**Licencia**: GPL-3.0 ©️ hackingyseguridad.com
+#
+http://www.hackingyseguridad.com/
+#
