@@ -1,4 +1,4 @@
-# IPSec
+### IPSec
 
 IPSec (Seguridad del Protocolo de Internet) es un protocolo diseñado para poder conectar y  proteger todo el tráfico de red entre dos redes,  aplicar cifrados, control de integridad a los datos y autenticacin; IPsec es un  protocolo de nivel de enlace que proporcina seguridad, Capa 3, estandarizado para Ipv4, IPv6.
 
@@ -106,9 +106,11 @@ Se crea una 2ª clave compartida DH, para proteger los paquetes de la fase 2  y 
 **Ataques Dos:** Ataques Dos (Denegacion de servicio), Inundacion paquetes UDP, puertos 500/4500, IKE de autenticación. Ataques de inundacion con paquetes y trafico. Ataques Los ataques de fragmentación aprovechan la forma en que IPSec fragmenta los paquetes de datos para enviar fragmentos mal formados al servidor VPN. Esto puede hacer que el servidor se bloquee o se reinicie.  Puertos/servicios:
 
 
-# Cliente Pulse VPN para Linux
+### Cliente Pulse VPN para Linux
 cliente VPN pulsesecure en bash shell Linux
 
 ./pulse.sh
 
-# http://www.hackingyseguridad.com
+# 
+http://www.hackingyseguridad.com/
+#
